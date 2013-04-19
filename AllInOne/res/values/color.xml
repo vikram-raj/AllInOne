@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#0000FF</color>
+    <color name="torch">#8000FF</color>
+    <color name="black">#000000</color>
+    <color name="tc">#D7E6AC</color>
+    <color name="tap">#AA00FF</color>
+    <color name="calc">#D400FF</color>
+    <color name="exit">#DF01D7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="ppp">#000</color>
+    <color name="sss">#0587d9</color>
+    <color name="red">#FF0000</color>
+</resources>

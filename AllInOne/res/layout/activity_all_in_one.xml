@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllInOne" 
+    android:background="@color/blue">
+
+    <Button
+        android:id="@+id/tourch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:background="@color/torch" 
+        android:shadowColor="@color/black"
+        android:text="TORCH"
+        android:textColor="@color/tc"
+        android:textStyle="bold" />
+
+	<Button
+	    android:id="@+id/tap"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/tourch"
+	    android:layout_marginTop="37dp" 
+	    android:background="@color/tap"
+	    android:text="TAPPER"
+	    android:textColor="@color/tc"
+	    android:textStyle="bold"/>
+
+	<Button
+	    android:id="@+id/calc"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/tap"
+	    android:layout_marginTop="37dp" 
+	    android:background="@color/calc"
+	    android:textColor="@color/tc"
+	    android:textStyle="bold"
+	    android:text="TIP CALCULATOR"
+	    />
+
+	<Button
+	    android:id="@+id/exit"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/calc"
+	    android:layout_marginTop="32dp"
+	    android:background="@color/exit"
+	    android:text="EXIT"
+	    android:textColor="@color/tc"
+	    android:textStyle="bold" />
+
+</RelativeLayout>
